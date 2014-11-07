@@ -1,0 +1,21 @@
+#+TITLE:	Build a Working Solar System
+#+options:	todo:t
+
+*** About
+
+From the site: <http://virdir.ncsa.illinois.edu/partiview/>
+
+#+BEGIN_QUOTE
+Partiview is free, open-source software from the National Center for
+Supercomputing Applications (NCSA) at the University of Illinois
+Urbana-Champaign. It is an industrial strength, interactive, mono- or
+stereoscopic viewer for 4-dimensional datasets. It is written in
+C++/OpenGL and has been compiled to run on Linux, Windows, OS X, and
+Irix.
+#+END_QUOTE
+
+*** TODO Partiview needs an Solar System
+
+- A working solar system involves: 
+ + developing a reader for the ephemeris data of a given body (planet, moon, asteroid, etc.) 
+ + integrating NASA’s SPICE kernel so that mission data can be read and visualized.

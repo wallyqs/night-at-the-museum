@@ -1,0 +1,13 @@
+#+TITLE:   Night at the museum repos
+#+runmode: idempotent
+#+startup: showeverything
+
+- Github link: <https://github.com/HacktheUniverse>
+
+*** Digital Universe repository
+
+#+name: repos
+#+BEGIN_SRC sh :dir src
+git clone https://github.com/HacktheUniverse/DigitalUniverseInfo
+git clone https://github.com/HacktheUniverse/Challenges
+#+END_SRC

@@ -10,4 +10,7 @@
 #+BEGIN_SRC sh :dir src
 git clone https://github.com/HacktheUniverse/DigitalUniverseInfo
 git clone https://github.com/HacktheUniverse/Challenges
+git clone https://github.com/HacktheUniverse/star-api
 #+END_SRC
+
+

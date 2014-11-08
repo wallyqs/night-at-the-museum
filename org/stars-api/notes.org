@@ -1,0 +1,29 @@
+#+TITLE:	Stars API project
+#+runmode:	idempotent
+
+*** Development
+
+**** Get the data
+
+#+name: already-downloaded-the-data
+#+BEGIN_SRC sh :dir data
+[[ -e milkyway.tgz ]]
+#+END_SRC
+
+#+name: get-the-data
+#+BEGIN_SRC sh :dir data :unless already-downloaded-the-data
+curl -o milkyway.tgz http://www.haydenplanetarium.org/downloads/universe/linux/DUv3_9.tgz --compressed
+#+END_SRC
+
+**** Untar the data
+
+#+name: already-decompressed
+#+BEGIN_SRC sh :dir data
+[[ -e digital-universe ]]
+#+END_SRC
+
+#+name: untar-data
+#+BEGIN_SRC sh :dir data :unless already-decompressed
+tar -xvf milkyway.tgz
+mv Digital\ Universe digital-universe
+#+END_SRC

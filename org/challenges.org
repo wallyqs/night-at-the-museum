@@ -6,16 +6,24 @@
 
 The free version of the Digital Universe is distributed with
 Partiview, a highly sophisticated, but technically challenging
-program. It was written in C (mostly) by a programming genius at the
+program. 
+
+It was written in C (mostly) by a programming genius at the
 National Center for Supercomputing Applications at the U
-Illinois. While Partiview is lightweight (about 1 MB), multi-platform,
+Illinois. 
+
+While Partiview is lightweight (about 1 MB), multi-platform,
 and powerful, it suffers from a UI that is foreign to the
-uninitiated. This challenge aims to reduce the learning curve by
+uninitiated. 
+
+This challenge aims to reduce the learning curve by
 designing a UI that is familiar to the masses, and includes the
 advanced features of data and graphics manipulation necessary to
 explore the universe.
 
 *** API for DU							   :moderate:
+
+[[file:stars-api.org][Go to Project]]
 
 Build an API that understands the various data formats 
 (in-house, VOTable, etc.) that we use for the DU.
@@ -36,7 +44,8 @@ importantly, straightforward navigation capabilities.
 
 One of the challenges with integrating data into open-source, expertly
 written software is the ability to change the initial focus of the
-software to something much larger in scope. 
+software to something much larger in scope.
+
 For this reason, Partiview has never had a working solar system. 
 A working solar system involves developing a reader for the ephemeris data 
 of a given body (planet, moon, asteroid, etc.) as well as integrating NASA’s SPICE kernel so
